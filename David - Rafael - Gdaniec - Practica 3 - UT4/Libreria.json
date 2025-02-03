@@ -1,0 +1,43 @@
+[
+    {
+        "title": "50 sombras de grey",
+        "author": "E.L James",
+        "genre": "Novela",
+        "year": 2011,
+        "cover": "descarga.jpg",
+        "descripcion": "va sobre amor no sé si te digo la verdad ni lo he visto ni lo he leído simplemente no se me ocurría nada"
+    },
+
+    {
+        "title": "Solo Leveling",
+        "author": "Chu-Gong",
+        "genre": "Manhwa",
+        "year": 2016,
+        "cover": "solo.jpg",
+        "descripcion": "Es un tío que casi la palma en una mazmorra pero tiene como un despertar y entra como en un juego en la vida real y se vuelve fuerte está muy guay"
+    },
+    {
+        "title": "Mushoku Tensei",
+        "author": "Rifujin na Magonote",
+        "genre": "Novela Lígera" ,
+        "year": 2021,
+        "cover": "mushoku.jpg",
+        "descripcion": "Este es un tio que muere atropellado y se va a un mundo de fantasía y se vuelve un mago muy fuerte y hasta ahí puedo leer porque sino igual me cancelan la matrícula"
+    },
+    {
+        "title": "Chainsaw Man",
+        "author": "Tatsuki Fujimoto",
+        "genre": "Manga" ,
+        "year": 2018,
+        "cover": "hombre motosierra.jpg",
+        "descripcion": "Este se convierte en una motosierra por tener un demonio dentro y de ahí el nombre de hombre motosierra"
+    },
+    {
+        "title": "Bungo stray Dogs",
+        "author": "Kafka Asagiri",
+        "genre": "Manga" ,
+        "year": 2012,
+        "cover": "por los perros callejeros.jpg",
+        "descripcion": "Es una agencia de personas con superpoderes que quieren cuidar la ciudad pero hay mafias también con poderes y se pelean no sé está guay"
+    }
+]

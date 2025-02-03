@@ -1,0 +1,162 @@
+@keyframes animacion
+{
+    0%, 25%
+    {
+        color: orange;
+    }
+    25%, 50%
+    {
+        color: rgb(40, 227, 252);
+    }
+    50%, 75%
+    {
+        color: #9d24d4;
+    }
+    75%, 100%
+    {
+        color: orange;
+    }
+}
+@keyframes animacioncabeza
+{
+    0%, 50%
+    {
+        background-color: aqua;
+    }
+    50%, 75%
+    {
+        background-color: white;
+    }
+    75%, 100%
+    {
+        background-color: aqua;
+    }
+}
+body
+{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 100%;
+margin: 0%;
+padding: 0%;
+overflow-x: hidden;
+}
+main
+{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+background-image: url(/Imagenes/Susanoo_y_Kurama_chocan_pu3Fos.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+}
+header
+{
+
+width: 100%;
+display: flex;
+justify-content: center;
+border: 2px solid black;
+animation-name: animacioncabeza;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+#gallery
+{
+
+padding: 0%;
+width: 100%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.card
+{
+width: 17%;
+margin: 6vh;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 2px ridge black;
+box-shadow: inset 1px 1px 20px black;
+}
+.card > h2
+{
+animation-name: animacion;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+}
+.card > p
+{
+color: white;
+text-shadow: 1px 1px 16px ;
+}
+.card:first-child
+{
+background-color: grey;
+box-shadow: 3px 4px 4px black;
+}
+.card:nth-child(2)
+{
+    background: linear-gradient(90deg, rgba(75,124,255,1) 10%, rgba(33,29,193,1) 69%);
+    box-shadow: inset 1px 1px 20px black;
+}
+.card:nth-child(3)
+{
+    background: linear-gradient(90deg, rgba(0,195,236,1) 0%, rgba(253,29,29,1) 50%, rgba(255,255,255,1) 100%);
+
+}
+.card:nth-child(4)
+{
+    background: radial-gradient(circle, rgba(63,251,123,1) 0%, rgba(239,252,70,1) 100%);
+}
+.card:last-child
+{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(33,33,33,1) 100%);
+}
+img
+{
+transform: scale(1);
+transition: all 2s;
+
+}
+img:hover 
+{
+transition: all 2s;
+transform: scale(2);
+background-color: black;
+}
+img
+{
+width: 20vh;
+}
+.Descripcion
+{
+    opacity: 0;
+    transition: all;
+    z-index: 0;
+    position: relative;
+    right: 60vh;
+    transition: all 4s;
+}
+img:hover ~ .Descripcion
+{
+    transition: all 4s;
+    background-color: white;
+    font-size: large;
+    z-index: 0;
+    transform: translate(56);
+    opacity: 1;
+    position: relative;
+    right: 0%;
+
+}
+
+@media(max-width: 768px)
+{
+    .card{width: 100%;}
+}
