@@ -1,0 +1,31 @@
+@keyframes animacion
+{
+    0%
+    {
+    color: blue;
+    }
+    50%
+    {
+        color: red;
+    }
+    75%
+    {
+        color: blueviolet;
+    }
+    100%
+    {
+        color: blue;
+    }
+
+}
+table, th, td
+{
+border: 3px ridge;
+text-align: center;
+}
+
+.barato
+{
+background-color: greenyellow;
+animation: animacion 3s ease-in-out infinite alternate;
+}
